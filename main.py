@@ -57,6 +57,6 @@ if __name__ == '__main__':
     sb.load_cookie_str(cookies)
     res = sb.checkin()
     print(res)
-    push_to_wechat(text = '什么值得买每日签到',
-                    desp = str(res),
-                    secretKey = SERVERCHAN_SECRETKEY)
+    # push_to_wechat(text = '什么值得买每日签到',
+    #                desp = str(res),
+    #                secretKey = SERVERCHAN_SECRETKEY)
